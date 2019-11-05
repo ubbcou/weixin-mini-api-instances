@@ -1,0 +1,30 @@
+.action {
+  background-color: #eee;
+  font-size: 15px;
+  padding: 10px 20px;
+  margin: 0 20px 10px;
+}
+
+.action.danger {
+  background-color: rgb(223, 15, 0);
+  color: #fff;
+}
+
+.wrap {
+  box-shadow: 0 0 3px #eee;
+  padding: 10px 0;
+  margin: 20px;
+  transition: all 0.2s;
+}
+
+.item {
+  margin: 10px;
+  padding: 10px;
+  background-color: #fefefe;
+  font-size: 14px;
+  color: #233;
+}
+
+.item:nth-of-type(odd) {
+  background-color: #f6f6f6;
+}
