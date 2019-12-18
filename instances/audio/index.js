@@ -1,4 +1,4 @@
-import { vertifyAudioConfig } from './vertify.js'
+import { verifyAudioConfig } from './verify.js'
 
 class Audio {
   constructor() {
@@ -28,7 +28,7 @@ class Audio {
   }
   // 创建实例
   create(config) {
-    vertifyAudioConfig(config)
+    verifyAudioConfig(config)
     if (this.instances.length >= this.instancesMaxLength && (this.instances[this.instances.length - this.instancesMaxLength].ctx)) {
       this.destroy(this.instances[this.instances.length - this.instancesMaxLength])
     }

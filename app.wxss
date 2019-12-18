@@ -1,0 +1,13 @@
+button {
+  width: auto;
+  min-height: 0;
+  margin: 0;
+  border: none;
+  line-height: normal;
+  font-size: 14px;
+  background-color: transparent;
+}
+
+button::after {
+  content: none;
+}

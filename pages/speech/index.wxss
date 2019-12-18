@@ -1,0 +1,48 @@
+button {
+  width: auto;
+  min-height: 0;
+  margin: 0;
+  border: none;
+  line-height: normal;
+  font-size: 14px;
+}
+
+button::after {
+  content: none;
+}
+
+.section {
+  padding: 20px;
+  text-align: justify;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.section-text {
+  text-indent: 2em;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.actions {
+  position: relative;
+  height: 100px;
+}
+
+.actions-main {
+  position: fixed;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 414px;
+  display: flex;
+}
+
+.actions-item {
+  flex: 1;
+}

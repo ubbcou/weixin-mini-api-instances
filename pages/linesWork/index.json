@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "canvas-line": "/components/canvas-line/index"
+  }
+}

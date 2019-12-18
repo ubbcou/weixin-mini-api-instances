@@ -1,0 +1,29 @@
+.areas {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.item-wrap {
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.item-content {
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  background-color: teal;
+}
+
+.canvas-wrap {
+  margin: 0 auto;
+  width: 300px;
+  height: auto;
+}
+.canvas {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,9 @@
+<view class="areas">
+  <!-- <view class="item-wrap" wx:for="{{8}}" wx:key="index">
+    <view class="item-content"></view>
+  </view> -->
+  <view class="canvas-wrap" bindtap="clickHandle" >
+    <canvas canvas-id="mainCanvas" class="canvas" style="height: {{canvasHeight}}px" />
+  </view>
+</view>
+

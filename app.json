@@ -1,6 +1,10 @@
 {
   "pages": [
-    "pages/audio/index"
+    "pages/lineWorkV2/index",
+    "pages/linesWork/index",
+    "pages/speech/index",
+    "pages/audio/index",
+    "pages/video/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

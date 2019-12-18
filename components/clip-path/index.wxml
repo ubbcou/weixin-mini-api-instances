@@ -1,0 +1,4 @@
+<view class="wrap">
+  <view ></view>
+  <view class="line-item" wx:for="{{lines}}" style="{{item}}"></view>
+</view>

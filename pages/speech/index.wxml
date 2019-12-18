@@ -1,0 +1,11 @@
+<view class="section">
+  <view class="section-title">读下面：</view>
+  <view class="section-text">{{paper}}</view>
+</view>
+
+<view class="actions">
+  <view class="actions-main">
+    <button size="default" bindtap="start">开始</button>
+    <button size="default" bindtap="stop">提交</button>
+  </view>
+</view>

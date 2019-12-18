@@ -1,0 +1,5 @@
+<video src="https://glb-vod.hexiaoxiang.com/8a740ebffb9142b2af5547dd00f97b6f/8c7b033bfde846779f7146d9c88dac24-c59c326fe273e9f6325997c9fc480470-fd.mp4"
+class="video"
+bindtimeupdate="timeUpdate"
+binderror="errorHandle"
+></video>

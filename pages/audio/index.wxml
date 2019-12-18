@@ -2,5 +2,5 @@
 <view class="action danger" bindtap="clearAll">清除所有</view>
 
 <view class="wrap">
-  <view class="item" bindtap="playItem" data-index="{{index}}" wx:for="{{audioIndexs}}">播放{{index}}号</view>
+  <view class="item" bindtap="playItem" data-index="{{index}}" wx:key="index" wx:for="{{audioIndexs}}">播放{{index}}号</view>
 </view>
