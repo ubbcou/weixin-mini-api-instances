@@ -1,4 +1,4 @@
-<view class="wrap">
-  <view ></view>
+<view class="wrap" style="height: {{height}}px;" bindtouchstart="touchStart" bindtouchend="touchEnd">
+  <view wx:for="{{rects}}" data-info="{{item}}" style="{{item.style}}"></view>
   <view class="line-item" wx:for="{{lines}}" style="{{item}}"></view>
 </view>
