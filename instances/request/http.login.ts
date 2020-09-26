@@ -1,6 +1,32 @@
 import Taro from '@tarojs/taro'
 
 export const host = 'http://127.0.0.1:5501'
+interface Config {
+  url: string
+  data?: any
+  headers?: any
+}
+
+interface BaseConfig {
+  method: 'GET' | 'POST' | 'PUT' | "DELETE"
+  url: string
+  data?: any
+  headers?: any
+  noLogin?: boolean
+}
+
+interface BaseResolve {
+  code: number
+  msg: string
+  data: any
+}
+
+interface Config {
+  url: string
+  data?: any
+  headers?: any
+  noLogin?: boolean
+}
 
 
 // usage:
